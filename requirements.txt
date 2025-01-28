@@ -1,0 +1,4 @@
+selenium
+PyYAML
+capsolver_extension_python
+retry

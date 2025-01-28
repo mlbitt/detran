@@ -1,0 +1,7 @@
+consulta_patio:
+  input_chassi: ['xpath', '//*[@id="chassi"]']
+  button_submit: ['xpath', '//button[@name="btnEnviar"]']
+  iframe_recaptcha: ['xpath', '//*[@title="reCAPTCHA"]']
+  span_captcha_solved: ['xpath', '//span[@role="checkbox" and @aria-checked="true"]']
+  tbody_results:  ['xpath', '//div[@class="table-responsive"]//tbody']
+  label_no_results: ['xpath',  '//div[@class="alert alert-danger alert-dismissible font-weight-bold"]']
